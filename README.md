@@ -10,8 +10,6 @@ OxyBS is a R package that provides a maximum-likelihood approach to the estimati
 * Example use of fitOxBS
 * Advanced Usage 
   * Visualization
-  * Troubleshooting
-* Session info
 
 # 1. Getting Started
 ## Datasets
@@ -40,3 +38,6 @@ Step 5: The output from the ‘fitOxBS’ function can be placed in a three-dime
 
 ### 2B. Example with an in-house dataset (Setting up the analysis environment)
 To apply OxyBS to a dataset produced in-house requires a phenotype and chip information meta file in addition to .IDAT files. Below we present an example of such a meta-file and progress with the analysis (Steps: 2-4) in the same manner as was presented for section 2A.
+
+# 3. Visualization
+To quickly assess the frequency and magnitude of negative 5hmC values when a naive (BS-oxBS=5hmC) estimation
